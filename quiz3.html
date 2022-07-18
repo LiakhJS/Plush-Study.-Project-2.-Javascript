@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Comfortaa:wght@300&family=Murecho:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link href="styles/paint.css" rel="stylesheet" type="text/css">
+    <link href="styles/quiz.css" rel="stylesheet" type="text/css">
+    <title>QUIZ. PlUSH STUDY .</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="content">
+            <header>
+                <div class="math_burger">
+                    <a href="game_quiz.html"><img src="images/bear.png"> </a>
+                </div>
+                <h1 class="math_title">facts</h1>
+                <div class="math_icon">
+                    <img src="images/choose.png">
+                    <div class="user_name">
+                        <p>User name</p>
+                        <p>Exit</p>
+                    </div>
+                </div>
+            </header>
+            <div class="main_container">
+                <div class="quiz in-column-results" id="quiz">
+                    <div class="quiz-questions quiz-img-height" id="questions"></div>
+                    <div class="quiz-indicator" id="indicator">1/10</div>
+                    <div class="quiz-results" id="results">
+                        <div class="quiz-results-item">
+                            <div class="quiz-results-item__question">Вопрос 1</div>
+                            <ul class="quiz-results-item__answers">
+                                <li>Ответ 1</li>
+                                <li>Ответ 1</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="container-for-user-result for-result2">
+                        <div class="quiz-result-in-percent">
+                            <div class="result-name-user">
+                            </div>
+                            <div class="result-user-correct"></div>
+                            <div class="result-user-incorrect"></div>
+                        </div>
+                        <div class="quiz-controls">
+                            <button class="btn-next" id="btn-next" disabled>Далее</button>
+                            <button class="btn-prev" id="btn-prev" disabled>Назад</button>
+                            <div class="main-btn-restart">
+                                <button class="btn-restart" id="btn-restart">С начала</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="quiz_footer">If U want to change a game, just Click the Bear !
+            </div>
+        </footer>
+    </div>
+    <script src="./scripts/quiz3.js"></script>
+    <script src="./scripts/quiz-service.js"></script>
+    <script src="./scripts/quiz-script.js"></script>
+    <script src="scripts/getStorageNameMath.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1572 @@
+{
+  "quiz1": [
+    {
+      "question": "What quality distinguishes the Flash from other people? Complete his sentence.",
+      "answers": [
+        {
+          "id": "1",
+          "value": "Fastest",
+          "correct": "true"
+        },
+        {
+          "id": "2",
+          "value": "Funniest",
+          "correct": "false"
+        },
+        {
+          "id": "3",
+          "value": "Cleverest",
+          "correct": "false"
+        },
+        {
+          "id": "4",
+          "value": "Strongest",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "Complete the sentence written on Harley Quinn's T-shirt. Daddy's lil...",
+      "answers": [
+        {
+          "id": "5",
+          "value": "Girl",
+          "correct": "false"
+        },
+        {
+          "id": "6",
+          "value": "Criminal",
+          "correct": "false"
+        },
+        {
+          "id": "7",
+          "value": "Monster",
+          "correct": "true"
+        },
+        {
+          "id": "8",
+          "value": "Psycho",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "What was Superman's human name?",
+      "answers": [
+        {
+          "id": "9",
+          "value": "Peter Parket",
+          "correct": "false"
+        },
+        {
+          "id": "10",
+          "value": "Clark Kent",
+          "correct": "true"
+        },
+        {
+          "id": "11",
+          "value": "Bruce Wayne",
+          "correct": "false"
+        },
+        {
+          "id": "12",
+          "value": "Bruce Payne",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "What is it that draws a Green Lantern to Earth?",
+      "answers": [
+        {
+          "id": "13",
+          "value": "Dessert",
+          "correct": "true"
+        },
+        {
+          "id": "14",
+          "value": "Oasis",
+          "correct": "false"
+        },
+        {
+          "id": "15",
+          "value": "Resort",
+          "correct": "false"
+        },
+        {
+          "id": "16",
+          "value": "Dinner",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "When does Batman need to wear a mask?",
+      "answers": [
+        {
+          "id": "17",
+          "value": "If you're walking alone",
+          "correct": "false"
+        },
+        {
+          "id": "18",
+          "value": "If you're walking at home",
+          "correct": "false"
+        },
+        {
+          "id": "19",
+          "value": "If you're working at home",
+          "correct": "false"
+        },
+        {
+          "id": "20",
+          "value": "If you're working alone",
+          "correct": "true"
+        }
+      ]
+    },
+    {
+      "question": "What was changed in the body of the villainess named Poison Ivy?",
+      "answers": [
+        {
+          "id": "21",
+          "value": "Heart",
+          "correct": "true"
+        },
+        {
+          "id": "22",
+          "value": "Liver",
+          "correct": "false"
+        },
+        {
+          "id": "23",
+          "value": "Stomach",
+          "correct": "false"
+        },
+        {
+          "id": "24",
+          "value": "Lungs",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "What does Wonder Woman have to do with her hair?",
+      "answers": [
+        {
+          "id": "25",
+          "value": "Cut",
+          "correct": "false"
+        },
+        {
+          "id": "26",
+          "value": "Comb",
+          "correct": "true"
+        },
+        {
+          "id": "27",
+          "value": "Dye",
+          "correct": "false"
+        },
+        {
+          "id": "28",
+          "value": "Touch",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "What doesn't kill us makes us... Complete the Joker's sentence.",
+      "answers": [
+        {
+          "id": "29",
+          "value": "Stranger",
+          "correct": "true"
+        },
+        {
+          "id": "30",
+          "value": "Stronger",
+          "correct": "false"
+        },
+        {
+          "id": "31",
+          "value": "Crippled ",
+          "correct": "false"
+        },
+        {
+          "id": "32",
+          "value": "Rougher",
+          "correct": "false"
+        }
+      ]
+    }
+  ],
+  "quiz2": [
+    {
+      "question": "<img src='./images/mirrorQ.jpeg' >",
+      "answers": [
+        {
+          "id": "33",
+          "value": "Clock",
+          "correct": "false"
+        },
+        {
+          "id": "34",
+          "value": "Mirror",
+          "correct": "true"
+        },
+        {
+          "id": "35",
+          "value": "Painting",
+          "correct": "false"
+        },
+        {
+          "id": "36",
+          "value": "Photo",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "<img src='./images/duckQ.jpeg' >",
+      "answers": [
+        {
+          "id": "41",
+          "value": "Crying",
+          "correct": "false"
+        },
+        {
+          "id": "42",
+          "value": "Trying",
+          "correct": "true"
+        },
+        {
+          "id": "43",
+          "value": "Quacking",
+          "correct": "false"
+        },
+        {
+          "id": "44",
+          "value": "Laughing",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "<img src='./images/piterQ.jpeg' >",
+      "answers": [
+        {
+          "id": "45",
+          "value": "Trap",
+          "correct": "true"
+        },
+        {
+          "id": "46",
+          "value": "Lie",
+          "correct": "false"
+        },
+        {
+          "id": "47",
+          "value": "Pity",
+          "correct": "false"
+        },
+        {
+          "id": "48",
+          "value": "Dream",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "<img src='./images/mickeyQ.jpeg' >",
+      "answers": [
+        {
+          "id": "49",
+          "value": "Humiliate yourself",
+          "correct": "false"
+        },
+        {
+          "id": "50",
+          "value": "Make fun of yourself",
+          "correct": "false"
+        },
+        {
+          "id": "51",
+          "value": "Love yourself",
+          "correct": "true"
+        },
+        {
+          "id": "52",
+          "value": "Hurt yourself",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "What does Mowgli like to be?",
+      "answers": [
+        {
+          "id": "53",
+          "value": "Pear",
+          "correct": "false"
+        },
+        {
+          "id": "54",
+          "value": "Beer",
+          "correct": "false"
+        },
+        {
+          "id": "55",
+          "value": "Ear",
+          "correct": "false"
+        },
+        {
+          "id": "56",
+          "value": "Bear",
+          "correct": "true"
+        }
+      ]
+    },
+    {
+      "question": "How does Simba feel about danger?",
+      "answers": [
+        {
+          "id": "57",
+          "value": "Tries to avoid",
+          "correct": "false"
+        },
+        {
+          "id": "58",
+          "value": "Laugh in her face",
+          "correct": "true"
+        },
+        {
+          "id": "59",
+          "value": "Looking for her everywhere",
+          "correct": "false"
+        },
+        {
+          "id": "60",
+          "value": "Challenges one",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "Jin grants wishes. But there are certain rules, and this is rule number one?",
+      "answers": [
+        {
+          "id": "61",
+          "value": "He cannot save from execution",
+          "correct": "false"
+        },
+        {
+          "id": "62",
+          "value": "He can't lose his head",
+          "correct": "false"
+        },
+        {
+          "id": "63",
+          "value": "He cannot kill",
+          "correct": "true"
+        },
+        {
+          "id": "64",
+          "value": "He can't sew on his head",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "From whom did the crab Sebastian unsuccessfully try to save the Little Mermaid?",
+      "answers": [
+        {
+          "id": "65",
+          "value": "From people",
+          "correct": "true"
+        },
+        {
+          "id": "66",
+          "value": "From submarines",
+          "correct": "false"
+        },
+        {
+          "id": "67",
+          "value": "From sharks",
+          "correct": "false"
+        },
+        {
+          "id": "68",
+          "value": "From sea urchins",
+          "correct": "false"
+        }
+      ]
+    }
+  ],
+  "quiz3": [
+    {
+      "question": "<img src='./images/emeraldQ.jpeg' >",
+      "answers": [
+        {
+          "id": "69",
+          "value": "Diamond",
+          "correct": "false"
+        },
+        {
+          "id": "70",
+          "value": "Ruby",
+          "correct": "false"
+        },
+        {
+          "id": "71",
+          "value": "Amethyst",
+          "correct": "false"
+        },
+        {
+          "id": "72",
+          "value": "Emerald",
+          "correct": "true"
+        }
+      ]
+    },
+    {
+      "question": "<img src='./images/nyQ.jpeg' >",
+      "answers": [
+        {
+          "id": "73",
+          "value": "Los Angeles",
+          "correct": "false"
+        },
+        {
+          "id": "74",
+          "value": "Chicago",
+          "correct": "false"
+        },
+        {
+          "id": "75",
+          "value": "New York",
+          "correct": "true"
+        },
+        {
+          "id": "76",
+          "value": "Boston",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "<img src='./images/niagaraQ.jpeg' >",
+      "answers": [
+        {
+          "id": "77",
+          "value": "Angel falls",
+          "correct": "false"
+        },
+        {
+          "id": "78",
+          "value": "Niagara falls",
+          "correct": "true"
+        },
+        {
+          "id": "79",
+          "value": "Victoria falls",
+          "correct": "false"
+        },
+        {
+          "id": "80",
+          "value": "Rhine falls",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "<img src='./images/milkyWayQ.jpeg' >",
+      "answers": [
+        {
+          "id": "81",
+          "value": "The birth of a supernova",
+          "correct": "false"
+        },
+        {
+          "id": "82",
+          "value": "The Milky way",
+          "correct": "true"
+        },
+        {
+          "id": "83",
+          "value": "Polar lights",
+          "correct": "false"
+        },
+        {
+          "id": "84",
+          "value": "Tornado",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "<img src='./images/nikeQ.jpeg' >",
+      "answers": [
+        {
+          "id": "85",
+          "value": "New Balance",
+          "correct": "false"
+        },
+        {
+          "id": "86",
+          "value": "Puma",
+          "correct": "false"
+        },
+        {
+          "id": "87",
+          "value": "Adidas",
+          "correct": "false"
+        },
+        {
+          "id": "88",
+          "value": "Nike",
+          "correct": "true"
+        }
+      ]
+    },
+    {
+      "question": "<img src='./images/denmarkQ.jpeg' >",
+      "answers": [
+        {
+          "id": "89",
+          "value": "Denmark",
+          "correct": "true"
+        },
+        {
+          "id": "90",
+          "value": "Sweden",
+          "correct": "false"
+        },
+        {
+          "id": "91",
+          "value": "Russia",
+          "correct": "false"
+        },
+        {
+          "id": "92",
+          "value": "France",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "<img src='./images/barcelonaQ.jpeg' >",
+      "answers": [
+        {
+          "id": "93",
+          "value": "Paris",
+          "correct": "false"
+        },
+        {
+          "id": "94",
+          "value": "Rome",
+          "correct": "false"
+        },
+        {
+          "id": "95",
+          "value": "Barcelona",
+          "correct": "true"
+        },
+        {
+          "id": "96",
+          "value": "London",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "<img src='./images/graterQ.jpeg' >",
+      "answers": [
+        {
+          "id": "97",
+          "value": "Bowl",
+          "correct": "false"
+        },
+        {
+          "id": "98",
+          "value": "Pitcher",
+          "correct": "false"
+        },
+        {
+          "id": "99",
+          "value": "Grater ",
+          "correct": "true"
+        },
+        {
+          "id": "100",
+          "value": "Teapot",
+          "correct": "false"
+        }
+      ]
+    }
+  ],
+  "quiz4": [
+    {
+      "question": "He always wants to help people and tries to make them happy.",
+      "answers": [
+        {
+          "id": "101",
+          "value": "He is kind.",
+          "correct": "true"
+        },
+        {
+          "id": "102",
+          "value": "He is clever.",
+          "correct": "false"
+        },
+        {
+          "id": "103",
+          "value": "He is funny.",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "She cares only about herself. He cares only about himself.",
+      "answers": [
+        {
+          "id": "104",
+          "value": "They are both reliable.",
+          "correct": "false"
+        },
+        {
+          "id": "105",
+          "value": "They are both moody.",
+          "correct": "false"
+        },
+        {
+          "id": "106",
+          "value": "They are both selfish.",
+          "correct": "true"
+        }
+      ]
+    },
+    {
+      "question": "Her daughter always shows her love in a gentle way. She loves hugs and kisses.",
+      "answers": [
+        {
+          "id": "107",
+          "value": "She is sensible.",
+          "correct": "false"
+        },
+        {
+          "id": "108",
+          "value": "She is affectionate.",
+          "correct": "true"
+        },
+        {
+          "id": "109",
+          "value": "She is tidy.",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "One of my colleagues refuses to change his mind, even when everyone says he is wrong.",
+      "answers": [
+        {
+          "id": "110",
+          "value": "He is stubborn.",
+          "correct": "true"
+        },
+        {
+          "id": "111",
+          "value": "He is anxious.",
+          "correct": "false"
+        },
+        {
+          "id": "112",
+          "value": "He is lazy.",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "He doesn't want to work or make any effort to do anything.",
+      "answers": [
+        {
+          "id": "113",
+          "value": "He is insecure.",
+          "correct": "false"
+        },
+        {
+          "id": "114",
+          "value": "He is patient.",
+          "correct": "false"
+        },
+        {
+          "id": "116",
+          "value": "He is lazy.",
+          "correct": "true"
+        }
+      ]
+    },
+    {
+      "question": "My grandparents are friendly and they enjoy spending time with other people.",
+      "answers": [
+        {
+          "id": "117",
+          "value": "They are sociable.",
+          "correct": "true"
+        },
+        {
+          "id": "118",
+          "value": "They are sensible.",
+          "correct": "false"
+        },
+        {
+          "id": "119",
+          "value": "They are angry.",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "My brother is sensible and he can be trusted.",
+      "answers": [
+        {
+          "id": "120",
+          "value": "He is outgoing.",
+          "correct": "false"
+        },
+        {
+          "id": "121",
+          "value": "He is responsible.",
+          "correct": "true"
+        },
+        {
+          "id": "122",
+          "value": "He is independent.",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "Her behaviour changes very often. She may look happy and nice. But then she becomes angry without a warning.",
+      "answers": [
+        {
+          "id": "123",
+          "value": "She is rebellious.",
+          "correct": "false"
+        },
+        {
+          "id": "124",
+          "value": "She is moody.",
+          "correct": "true"
+        },
+        {
+          "id": "125",
+          "value": "She is jealous.",
+          "correct": "false"
+        }
+      ]
+    }
+  ],
+  "data": [
+    {
+      "nameUser": "User",
+      "email": "aaaa@gmail.com",
+      "password": "12345",
+      "id": 126
+    },
+    {
+      "nameUser": "SUPER",
+      "email": "SUPER@GMAIL.COM",
+      "password": "SUPER",
+      "id": 127
+    },
+    {
+      "nameUser": "PAPA",
+      "email": "aaaa@gmail.com",
+      "password": "asdfghj",
+      "id": 128
+    }
+  ],
+  "quiz5": [
+    {
+      "question": "Какое качество отличает Флэша от других людей? Завершите его предложение.",
+      "answers": [
+        {
+          "id": "1",
+          "value": "Самый быстрый",
+          "correct": "true"
+        },
+        {
+          "id": "2",
+          "value": "Самый весёлый",
+          "correct": "false"
+        },
+        {
+          "id": "3",
+          "value": "Самый умный",
+          "correct": "false"
+        },
+        {
+          "id": "4",
+          "value": "Самый сильный",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "Завершите предложение, написанное на футболке Харли Квинн. Папочки..",
+      "answers": [
+        {
+          "id": "5",
+          "value": "Девочка",
+          "correct": "false"
+        },
+        {
+          "id": "6",
+          "value": "Криминал",
+          "correct": "false"
+        },
+        {
+          "id": "7",
+          "value": "Монстр",
+          "correct": "true"
+        },
+        {
+          "id": "8",
+          "value": "Псих",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "Какое человеческое имя было у Супермена?",
+      "answers": [
+        {
+          "id": "9",
+          "value": "Питер Паркер",
+          "correct": "false"
+        },
+        {
+          "id": "10",
+          "value": "Кларк Кент",
+          "correct": "true"
+        },
+        {
+          "id": "11",
+          "value": "Брюс Уэйн",
+          "correct": "false"
+        },
+        {
+          "id": "12",
+          "value": "Кристофер Ли",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "Что привлекает Зеленого Фонаря на Землю?",
+      "answers": [
+        {
+          "id": "13",
+          "value": "Пустыня",
+          "correct": "true"
+        },
+        {
+          "id": "14",
+          "value": "Оазис",
+          "correct": "false"
+        },
+        {
+          "id": "15",
+          "value": "Курорт",
+          "correct": "false"
+        },
+        {
+          "id": "16",
+          "value": "Ужин",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "Когда Бэтмену нужно носить маску?",
+      "answers": [
+        {
+          "id": "17",
+          "value": "Если вы идёте  в одиночестве",
+          "correct": "false"
+        },
+        {
+          "id": "18",
+          "value": "Если вы идёте по дому",
+          "correct": "false"
+        },
+        {
+          "id": "19",
+          "value": "Если вы работаете дома",
+          "correct": "false"
+        },
+        {
+          "id": "20",
+          "value": "Если вы работаете один",
+          "correct": "true"
+        }
+      ]
+    },
+    {
+      "question": "Что изменилось в теле злодейки по имени Ядовитый Плющ?",
+      "answers": [
+        {
+          "id": "21",
+          "value": "Сердце",
+          "correct": "true"
+        },
+        {
+          "id": "22",
+          "value": "Печень",
+          "correct": "false"
+        },
+        {
+          "id": "23",
+          "value": "Желудок",
+          "correct": "false"
+        },
+        {
+          "id": "24",
+          "value": "Лёгкие",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "Что делает Чудо-женщина со своими волосами?",
+      "answers": [
+        {
+          "id": "25",
+          "value": "Стрижет",
+          "correct": "false"
+        },
+        {
+          "id": "26",
+          "value": "Расчёсывает",
+          "correct": "true"
+        },
+        {
+          "id": "27",
+          "value": "Красит",
+          "correct": "false"
+        },
+        {
+          "id": "28",
+          "value": "Трогает",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "То, что нас не убивает, делает нас... Завершите предложение Джокера.",
+      "answers": [
+        {
+          "id": "29",
+          "value": "Более странными",
+          "correct": "true"
+        },
+        {
+          "id": "30",
+          "value": "Сильнее",
+          "correct": "false"
+        },
+        {
+          "id": "31",
+          "value": "Искалеченными",
+          "correct": "false"
+        },
+        {
+          "id": "32",
+          "value": "Грубее",
+          "correct": "false"
+        }
+      ]
+    }
+  ],
+  "quiz6": [
+    {
+      "question": "<img src='./images/mirrorQ.jpeg' >",
+      "answers": [
+        {
+          "id": "33",
+          "value": "Часы",
+          "correct": "false"
+        },
+        {
+          "id": "34",
+          "value": "Зеркало",
+          "correct": "true"
+        },
+        {
+          "id": "35",
+          "value": "Картина",
+          "correct": "false"
+        },
+        {
+          "id": "36",
+          "value": "Фото",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "<img src='./images/duckQ.jpeg' >",
+      "answers": [
+        {
+          "id": "41",
+          "value": "Продолжай плакать",
+          "correct": "false"
+        },
+        {
+          "id": "42",
+          "value": "Продолжай пытаться",
+          "correct": "true"
+        },
+        {
+          "id": "43",
+          "value": "Продолжай крякать",
+          "correct": "false"
+        },
+        {
+          "id": "44",
+          "value": "Продолжай смеяться",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "<img src='./images/piterQ.jpeg' >",
+      "answers": [
+        {
+          "id": "45",
+          "value": "Ловушка",
+          "correct": "true"
+        },
+        {
+          "id": "46",
+          "value": "Ложь",
+          "correct": "false"
+        },
+        {
+          "id": "47",
+          "value": "Очень жаль",
+          "correct": "false"
+        },
+        {
+          "id": "48",
+          "value": "Мечта",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "<img src='./images/mickeyQ.jpeg' >",
+      "answers": [
+        {
+          "id": "49",
+          "value": "Унизить себя",
+          "correct": "false"
+        },
+        {
+          "id": "50",
+          "value": "Издеваться над собой",
+          "correct": "false"
+        },
+        {
+          "id": "51",
+          "value": "Любить себя",
+          "correct": "true"
+        },
+        {
+          "id": "52",
+          "value": "Обижать себя",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "Кем любит быть Маугли?",
+      "answers": [
+        {
+          "id": "53",
+          "value": "Грушей",
+          "correct": "false"
+        },
+        {
+          "id": "54",
+          "value": "Пивом",
+          "correct": "false"
+        },
+        {
+          "id": "55",
+          "value": "Ухом",
+          "correct": "false"
+        },
+        {
+          "id": "56",
+          "value": "Медведем",
+          "correct": "true"
+        }
+      ]
+    },
+    {
+      "question": "Как Симба относится к опасности?",
+      "answers": [
+        {
+          "id": "57",
+          "value": "Пытается избежать",
+          "correct": "false"
+        },
+        {
+          "id": "58",
+          "value": "Смеётся ей в лицо",
+          "correct": "true"
+        },
+        {
+          "id": "59",
+          "value": "Ищет её повсюду",
+          "correct": "false"
+        },
+        {
+          "id": "60",
+          "value": "О неё одни проблемы",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "Джин исполняет желания. Но есть определенные правила, и это правило номер один?",
+      "answers": [
+        {
+          "id": "61",
+          "value": "Он не может спасти от казни",
+          "correct": "false"
+        },
+        {
+          "id": "62",
+          "value": "Он не может потерять голову",
+          "correct": "false"
+        },
+        {
+          "id": "63",
+          "value": "Он не может убить",
+          "correct": "true"
+        },
+        {
+          "id": "64",
+          "value": "Он не может пришить себе голову",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "От кого краб Себастьян безуспешно пытался спасти Русалочку?",
+      "answers": [
+        {
+          "id": "65",
+          "value": "От людей",
+          "correct": "true"
+        },
+        {
+          "id": "66",
+          "value": "От подводных лодок",
+          "correct": "false"
+        },
+        {
+          "id": "67",
+          "value": "От акул",
+          "correct": "false"
+        },
+        {
+          "id": "68",
+          "value": "От морских ежей",
+          "correct": "false"
+        }
+      ]
+    }
+  ],
+  "quiz7": [
+    {
+      "question": "<img src='./images/emeraldQ.jpeg' >",
+      "answers": [
+        {
+          "id": "69",
+          "value": "Бриллиант",
+          "correct": "false"
+        },
+        {
+          "id": "70",
+          "value": "Рубин",
+          "correct": "false"
+        },
+        {
+          "id": "71",
+          "value": "Аметист",
+          "correct": "false"
+        },
+        {
+          "id": "72",
+          "value": "Изумруд",
+          "correct": "true"
+        }
+      ]
+    },
+    {
+      "question": "<img src='./images/nyQ.jpeg' >",
+      "answers": [
+        {
+          "id": "73",
+          "value": "Лос-Анджелес",
+          "correct": "false"
+        },
+        {
+          "id": "74",
+          "value": "Чикаго",
+          "correct": "false"
+        },
+        {
+          "id": "75",
+          "value": "Нью-Йорк",
+          "correct": "true"
+        },
+        {
+          "id": "76",
+          "value": "Бостон",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "<img src='./images/niagaraQ.jpeg' >",
+      "answers": [
+        {
+          "id": "77",
+          "value": "Водопад Анхель",
+          "correct": "false"
+        },
+        {
+          "id": "78",
+          "value": "Ниагарский водопад",
+          "correct": "true"
+        },
+        {
+          "id": "79",
+          "value": "Водопад Виктория",
+          "correct": "false"
+        },
+        {
+          "id": "80",
+          "value": "Рейнский водопад",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "<img src='./images/milkyWayQ.jpeg' >",
+      "answers": [
+        {
+          "id": "81",
+          "value": "Рождение сверхновой",
+          "correct": "false"
+        },
+        {
+          "id": "82",
+          "value": "Млечный путь",
+          "correct": "true"
+        },
+        {
+          "id": "83",
+          "value": "Северное сияние",
+          "correct": "false"
+        },
+        {
+          "id": "84",
+          "value": "Торнадо",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "<img src='./images/nikeQ.jpeg' >",
+      "answers": [
+        {
+          "id": "85",
+          "value": "New Balance",
+          "correct": "false"
+        },
+        {
+          "id": "86",
+          "value": "Puma",
+          "correct": "false"
+        },
+        {
+          "id": "87",
+          "value": "Adidas",
+          "correct": "false"
+        },
+        {
+          "id": "88",
+          "value": "Nike",
+          "correct": "true"
+        }
+      ]
+    },
+    {
+      "question": "<img src='./images/denmarkQ.jpeg' >",
+      "answers": [
+        {
+          "id": "89",
+          "value": "Дания",
+          "correct": "true"
+        },
+        {
+          "id": "90",
+          "value": "Швеция",
+          "correct": "false"
+        },
+        {
+          "id": "91",
+          "value": "Россия",
+          "correct": "false"
+        },
+        {
+          "id": "92",
+          "value": "Франция",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "<img src='./images/barcelonaQ.jpeg' >",
+      "answers": [
+        {
+          "id": "93",
+          "value": "Париж",
+          "correct": "false"
+        },
+        {
+          "id": "94",
+          "value": "Рим",
+          "correct": "false"
+        },
+        {
+          "id": "95",
+          "value": "Барселона",
+          "correct": "true"
+        },
+        {
+          "id": "96",
+          "value": "Лондон",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "<img src='./images/graterQ.jpeg' >",
+      "answers": [
+        {
+          "id": "97",
+          "value": "Чаша",
+          "correct": "false"
+        },
+        {
+          "id": "98",
+          "value": "Кувшин",
+          "correct": "false"
+        },
+        {
+          "id": "99",
+          "value": "Терка",
+          "correct": "true"
+        },
+        {
+          "id": "100",
+          "value": "Чайник",
+          "correct": "false"
+        }
+      ]
+    }
+  ],
+  "quiz8": [
+    {
+      "question": "Он всегда хочет помочь людям и старается сделать их счастливыми.",
+      "answers": [
+        {
+          "id": "101",
+          "value": "Он добрый.",
+          "correct": "true"
+        },
+        {
+          "id": "102",
+          "value": "Он умный",
+          "correct": "false"
+        },
+        {
+          "id": "103",
+          "value": "Он весёлый",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "Она заботится только о себе. Он заботится только о себе.",
+      "answers": [
+        {
+          "id": "104",
+          "value": "Они оба надежны.",
+          "correct": "false"
+        },
+        {
+          "id": "105",
+          "value": "Они оба в плохом настроении",
+          "correct": "false"
+        },
+        {
+          "id": "106",
+          "value": "Они оба эгоистичны.",
+          "correct": "true"
+        }
+      ]
+    },
+    {
+      "question": "Ее дочь всегда нежно проявляет свою любовь. Она любит объятия и поцелуи.",
+      "answers": [
+        {
+          "id": "107",
+          "value": "Она разумная",
+          "correct": "false"
+        },
+        {
+          "id": "108",
+          "value": "Она любящая",
+          "correct": "true"
+        },
+        {
+          "id": "109",
+          "value": "Она аккуратная",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "Один из моих коллег отказывается изменить свое мнение, даже когда все говорят, что он не прав.",
+      "answers": [
+        {
+          "id": "110",
+          "value": "Он упрямый.",
+          "correct": "true"
+        },
+        {
+          "id": "111",
+          "value": "Он тревожный.",
+          "correct": "false"
+        },
+        {
+          "id": "112",
+          "value": "Он ленивый.",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "Он не хочет работать или прилагать какие-либо усилия, чтобы что-то делать.",
+      "answers": [
+        {
+          "id": "113",
+          "value": "Он не уверен в себе.",
+          "correct": "false"
+        },
+        {
+          "id": "114",
+          "value": "Он терпелив.",
+          "correct": "false"
+        },
+        {
+          "id": "116",
+          "value": "Он ленивый.",
+          "correct": "true"
+        }
+      ]
+    },
+    {
+      "question": "Мои бабушка и дедушка дружелюбны, и им нравится проводить время с другими людьми.",
+      "answers": [
+        {
+          "id": "117",
+          "value": "Они общительный",
+          "correct": "true"
+        },
+        {
+          "id": "118",
+          "value": "Они чувствительные",
+          "correct": "false"
+        },
+        {
+          "id": "119",
+          "value": "Они злые.",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "Мой брат разумен и ему можно доверять.",
+      "answers": [
+        {
+          "id": "120",
+          "value": "Он общительный",
+          "correct": "false"
+        },
+        {
+          "id": "121",
+          "value": "Он ответственный.",
+          "correct": "true"
+        },
+        {
+          "id": "122",
+          "value": "Он независимый.",
+          "correct": "false"
+        }
+      ]
+    },
+    {
+      "question": "Ее поведение очень часто меняется. Она может выглядеть счастливой и милой. Но потом она злится без предупреждения.",
+      "answers": [
+        {
+          "id": "123",
+          "value": "Она мятежная.",
+          "correct": "false"
+        },
+        {
+          "id": "124",
+          "value": "Она капризная.",
+          "correct": "true"
+        },
+        {
+          "id": "125",
+          "value": "Она ревнивая.",
+          "correct": "false"
+        }
+      ]
+    }
+  ],
+  "DATAS": [
+    {
+      "nameUser": "User",
+      "email": "aaaa@gmail.com",
+      "password": "12345",
+      "id": 126
+    },
+    {
+      "nameUser": "MAMA",
+      "email": "aaaa@gmail.com",
+      "password": "asdfghj",
+      "id": 127
+    }
+  ]
+}

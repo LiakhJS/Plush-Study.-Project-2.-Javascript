@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Comfortaa:wght@300&family=Murecho:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/mixins.css">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <link rel="stylesheet" type="text/css" href="styles/games.css">
+    <link rel="stylesheet" type="text/css" href="styles/game_math.css">
+    <title>Плюшевый кабинет. Раскрась!</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <header>
+                <div class="menu math_burger">
+                    <div class="hamb_me">
+                        <input id="me__tog" type="checkbox" />
+                        <label class="me__btn" for="me__tog">
+                            <span></span>
+                        </label>
+                        <ul class="me__box">
+                            <li><a class="me__it " href="index.html">о плюшевом кабинете</a></li>
+                            <li><a class="me__it" href="subscription.html">о подписке</a></li>
+                            <li><a class="me__it " href="game_math.html">реши!</a></li>
+                            <li><a class="me__it" href="game_quiz.html">выбери!</a></li>
+                            <li><a class="me__it current-page" href="game_paint.html">раскрась!</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <h1 class="math_title">раскрась!</h1>
+                <div class="math_icon">
+                    <img src="images/paint.png">
+                    <div class="user_name_math">
+                        <p>User name</p>
+                        <p>Exit</p>
+                    </div>
+                </div>
+            </header>
+            <div class="main_container">
+                <div class="general_information">
+                    <p class="choose choose_paint">выбери картинку, которую хочешь расрасить:</p>
+                </div>
+                <div class="games_buttons">
+                    <div class="game_1">
+                        <a href="paint1.html" role="button" style="width:100%"> <img src="images/svg-paint-1.svg"
+                                style="width:100%"></a>
+                    </div>
+                    <div class="game_1">
+                        <a href="paint2.html" role="button" style="width:100%"> <img src="images/svg-paint-2.svg"
+                                style="width:100%"></a>
+                    </div>
+                    <div class="game_1">
+                        <a href="paint3.html" role="button" style="width:100%"> <img src="images/svg-paint-3.svg"
+                                style="width:100%"></a>
+                    </div>
+                    <div class="game_1">
+                        <a href="paint4.html" role="button" style="width:100%"> <img src="images/svg-paint-4.svg"
+                                style="width:100%"></a>
+                    </div>
+                    <div class="game_1">
+                        <a href="paint5.html" role="button" style="width:100%"> <img src="images/svg-paint-5.svg"
+                                style="width:100%"></a>
+                    </div>
+                    <div class="game_1">
+                        <a href="paint6.html" role="button" style="width:100%"> <img src="images/svg-paint-6.svg"
+                                style="width:100%"></a>
+                    </div>
+                    <div class="game_1">
+                        <a href="paint7.html" role="button" style="width:100%"> <img src="images/svg-paint-7.svg"
+                                style="width:100%"></a>
+                    </div>
+                    <div class="game_1">
+                        <a href="paint8.html" role="button" style="width:100%"> <img src="images/svg-paint-8.svg"
+                                style="width:100%"></a>
+                    </div>
+                </div>
+            </div>
+            <button class="open-button shake-top">ЧАТ</button>
+            <div class="chat-popup" id="myForm">
+                <form action="#" method="post" class="form-container">
+                    <h1>Чат</h1>
+                    <label for="msg"><b>Могу я помочь?</b></label>
+                    <textarea placeholder="Введите своё сообщение.." name="msg" required></textarea>
+                    <button type="submit" class="btn">Отправить</button>
+                    <button type="button" class="btn cancel">Закрыть</button>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="copyright">@2022.Plushstudy.by</div>
+            <div class="social_networks">
+                <a href="#" target="_blank"><i class="fab fa-twitter-square sn"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-facebook-square sn"></i></a>
+                <a href="../game_paint.html" target="_blank"> <i class="fab sn">LANG-ENG</i></a>
+                <a href="#" target="_blank"> <i class="fab fa-youtube-square sn"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram sn"></i></a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js "
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj "
+        crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js "
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF "
+        crossorigin="anonymous "></script>
+    <script src="scripts/index.js "></script>
+    <script src="scripts/getStorageName.js"></script>
+</body>
+
+</html>

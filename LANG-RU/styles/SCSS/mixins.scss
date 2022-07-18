@@ -1,0 +1,91 @@
+$purple: #833ab4;
+
+%purple_back {
+    background: #833ab4;
+}
+%purple_back_c {
+    background-color: #833ab4;
+}
+%gradient {
+    background: linear-gradient(90deg, #833ab4 9%, rgba(255, 121, 0, 0.61808473) 54%, #f6fc45 100%);
+}
+%btn_span {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+%size_a {
+    text-transform: uppercase;
+    font-size: 100px;
+}
+%size_lg {
+    width: 95%;
+    height: 200px;
+}
+%btn_back {
+    background: #020024;
+    background: linear-gradient(90deg, #020024 10%, #ad00ff 100%, #00d4ff 100%);
+    border: none;
+    color: white;
+}
+
+@mixin _1600 {
+    @media only all and (max-width: 1600px) {
+        @content;
+}
+}
+
+@mixin _1445 {
+    @media only all and (max-width: 1445px) {
+        @content;
+}
+}
+@mixin _1280 {
+    @media only all and (max-width: 1280px) {
+        @content;
+}
+}
+@mixin _1200 {
+    @media only all and (max-width: 1200px) {
+        @content;
+}
+}
+@mixin _1024 {
+    @media only all and (max-width: 1024px) {
+        @content;
+}
+}
+@mixin _846 {
+    @media only all and (max-width: 846px) {
+        @content;
+}
+}
+@mixin _768 {
+    @media only all and (max-width: 768px) {
+        @content;
+}
+}
+
+
+@mixin _640 {
+    @media only all and (max-width: 640px) {
+        @content;
+}
+}
+@mixin _600 {
+    @media only all and (max-width: 600px) {
+        @content;
+}
+}
+@mixin _465 {
+    @media only all and (max-width: 465px) {
+        @content;
+}
+}
+@mixin _425 {
+    @media only all and (max-width: 425px) {
+        @content;
+}
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Comfortaa:wght@300&family=Murecho:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/mixins.css">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <link rel="stylesheet" type="text/css" href="styles/games.css">
+    <link rel="stylesheet" type="text/css" href="styles/game_math.css">
+    <title>PLUSH STUDY. Math.</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <header>
+                <div class="menu math_burger">
+                    <div class="hamb_me">
+                        <input id="me__tog" type="checkbox" />
+                        <label class="me__btn" for="me__tog">
+                            <span></span>
+                        </label>
+                        <ul class="me__box">
+                            <li><a class="me__it " href="index.html">What is plush study?</a></li>
+                            <li><a class="me__it" href="subscription.html">about subscription</a></li>
+                            <li><a class="me__it current-page" href="game_math.html">math games</a></li>
+                            <li><a class="me__it" href="game_quiz.html">quizzes</a></li>
+                            <li><a class="me__it" href="game_paint.html">color me!</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <h1 class="math_title">math</h1>
+                <div class="math_icon">
+                    <img src="images/math.png">
+                    <div class="user_name_math">
+                        <p>User name</p>
+                        <p>Exit</p>
+                    </div>
+                </div>
+            </header>
+            <div class="main_container">
+                <div class="general_information">
+                    <p class="choose">choose the game you want to play:</p>
+                </div>
+                <div class="games_buttons">
+                    <div class="game_1">
+                        <a class="btn btn-primary btn-lg" href="add.html" role="button">Add</a>
+                    </div>
+                    <div class="game_2">
+                        <a class="btn btn-primary btn-lg" href="substract.html" role="button">Substract</a>
+                    </div>
+                    <div class="game_3">
+                        <a class="btn btn-primary btn-lg" href="multiply.html" role="button">Multiply</a>
+                    </div>
+                    <div class="game_4">
+                        <a class="btn btn-primary btn-lg" href="divide.html" role="button">Divide</a>
+                    </div>
+                </div>
+            </div>
+            <button class="open-button shake-top">CHAT</button>
+            <div class="chat-popup" id="myForm">
+                <form action="#" method="post" class="form-container">
+                    <h1>Chat</h1>
+                    <label for="msg"><b>Can I help you?</b></label>
+                    <textarea placeholder="Enter your message.." name="msg" required></textarea>
+                    <button type="submit" class="btn">Send</button>
+                    <button type="button" class="btn cancel">Close</button>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="copyright">@2022.Plushstudy.by</div>
+            <div class="social_networks">
+                <a href="#" target="_blank"><i class="fab fa-twitter-square sn"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-facebook-square sn"></i></a>
+                <a href="LANG-RU/game_math.html" target="_blank"> <i class="fab sn">LANG-RU</i></a>
+                <a href="#" target="_blank"> <i class="fab fa-youtube-square sn"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram sn"></i></a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js "
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj "
+        crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js "
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF "
+        crossorigin="anonymous "></script>
+    <script src="scripts/index.js "></script>
+    <script src="scripts/getStorageName.js "></script>
+
+</body>
+
+</html>

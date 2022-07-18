@@ -1,0 +1,219 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.subscription___cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subscription {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 50px 100px;
+}
+
+.subscription__title {
+    padding: 50px 100px 50px 0px;
+}
+
+.subscription__title h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+.subscription__title p,
+figure figcaption {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.btn-subscr {
+    font-size: 30px;
+}
+
+.subscription__picture {
+    margin: auto 0;
+}
+
+.subscription__picture img {
+    width: 500px;
+}
+
+.subscription__preferences h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.subscription__icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.subscription__icons figure {
+    width: 30%;
+    margin: 1%;
+    text-align: center;
+}
+
+.subscription__icons figure img {
+    width: 60%;
+}
+
+figure figcaption {
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #53006a;
+}
+
+.card {
+    border: 3px solid black;
+    border-radius: 6%;
+    margin: 20px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    border-radius: 6%;
+}
+
+.card-body p {
+    text-shadow: 0 1px 0px black;
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+}
+
+.card-title {
+    background-color: #833ab4;
+    background: linear-gradient(90deg, #833ab4 9%, rgba(255, 121, 0, 0.61808473) 54%, #f6fc45 100%);
+    padding: 30px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 6%;
+}
+
+.btn-tariff {
+    border-radius: 8%;
+}
+
+.subscription__tariff {
+    padding: 50px 0;
+}
+
+
+@media only all and (max-width: 1280px) {
+    .subscription {
+        padding: 50px 50px;
+    }
+
+    .subscription__title {
+        padding: 50px 50px 50px 0px;
+    }
+
+    .subscription__picture img {
+        width: 400px;
+    }
+}
+
+@media only all and (max-width: 1024px) {
+    .subscription {
+        padding: 40px;
+    }
+
+    .subscription__title {
+        padding: 0px 25px 0px 0px;
+    }
+
+    .subscription__picture img {
+        transform: rotate(270deg);
+    }
+
+    .subscription__title h1 {
+        font-size: 35x;
+    }
+
+    .subscription__title p,
+    figure figcaption {
+        font-size: 25px;
+
+    }
+}
+
+@media only all and (max-width: 920px) {
+    .subscription {
+        padding: 20px 0 20px 20px;
+    }
+
+    .subscription__title {
+        padding: 0px;
+    }
+
+    .subscription__title h1 {
+        font-size: 30x;
+    }
+
+    .subscription__title p,
+    figure figcaption {
+        font-size: 20px;
+
+    }
+
+    .subscription__picture img {
+        width: 300px;
+    }
+}
+
+@media only all and (max-width: 640px) {
+    .subscription {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .subscription__picture img {
+        transform: none;
+        width: 100%;
+
+    }
+
+    .subscription__picture {
+        margin: 20px auto;
+    }
+
+    .subscription__icons {
+        flex-direction: column;
+
+    }
+
+    .subscription__icons figure {
+        width: 100%;
+        margin: 0;
+    }
+
+    .subscription__icons figure img {
+        width: 50%;
+    }
+
+    figure figcaption {
+        font-size: 25px;
+    }
+
+    .subscription___cards {
+        flex-direction: column;
+    }
+
+    .card {
+        margin: 10px auto;
+    }
+
+    .subscription__tariff h1 {
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,332 @@
+header {
+  display: flex;
+  flex-direction: row;
+}
+header h1 {
+  font-size: 70px;
+  margin: auto 0;
+  width: 60%;
+}
+@media only all and (max-width: 846px) {
+  header h1 {
+    font-size: 50px;
+    width: 40%;
+  }
+}
+@media only all and (max-width: 600px) {
+  header h1 {
+    text-align: center;
+  }
+}
+@media only all and (max-width: 425px) {
+  header h1 {
+    font-size: 40px;
+  }
+}
+header .math_burger {
+  width: 20%;
+}
+@media only all and (max-width: 846px) {
+  header .math_burger {
+    width: 30%;
+  }
+}
+header .math_burger .me__btn {
+  top: 65px;
+  left: 50px;
+}
+@media only all and (max-width: 425px) {
+  header .math_burger .me__btn {
+    top: 70px;
+    left: 25px;
+  }
+}
+header .math_burger .me__btn > span {
+  width: 100%;
+}
+@media only all and (max-width: 425px) {
+  header .math_burger .me__btn > span {
+    width: 80%;
+  }
+}
+header .math_burger .me__btn > span::before {
+  content: "";
+  top: -12px;
+}
+header .math_burger .me__btn > span::after {
+  content: "";
+  top: 12px;
+}
+header .math_icon {
+  width: 20%;
+  text-align: right;
+  margin: 10px;
+}
+@media only all and (max-width: 846px) {
+  header .math_icon {
+    width: 30%;
+  }
+}
+header .math_icon img {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+@media only all and (max-width: 640px) {
+  header .math_icon img {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+  }
+}
+header .me__box {
+  top: 150px;
+}
+@media only all and (max-width: 768px) {
+  header .me__box {
+    top: 155px;
+  }
+}
+@media only all and (max-width: 640px) {
+  header .me__box {
+    top: 125px;
+  }
+}
+
+.user_name_math {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+@media only all and (max-width: 768px) {
+  .user_name_math {
+    flex-direction: column;
+  }
+}
+.user_name_math p {
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+@media only all and (max-width: 768px) {
+  .user_name_math p {
+    margin: 0px;
+  }
+}
+@media only all and (max-width: 640px) {
+  .user_name_math p {
+    font-size: 15px;
+  }
+}
+
+@media only all and (max-width: 768px) {
+  .main_container > .general_information p.choose {
+    font-size: 35px;
+  }
+}
+@media only all and (max-width: 465px) {
+  .main_container > .general_information p.choose.choose_paint {
+    font-size: 30px;
+  }
+}
+@media only all and (max-width: 425px) {
+  .main_container > .general_information p.choose.choose_paint {
+    font-size: 25px;
+  }
+}
+
+.games_buttons {
+  flex-wrap: wrap;
+}
+@media only all and (max-width: 1024px) {
+  .games_buttons {
+    padding: 0 0 50px 0;
+  }
+}
+.games_buttons .game_1 {
+  margin: 10px;
+  width: 40%;
+}
+@media only all and (max-width: 1024px) {
+  .games_buttons .game_1 {
+    width: 80%;
+    text-align: center;
+    margin: 2px auto;
+  }
+}
+@media only all and (max-width: 640px) {
+  .games_buttons .game_1 {
+    width: 95%;
+  }
+}
+@media only all and (max-width: 1600px) {
+  .games_buttons .game_1 a {
+    font-size: 75px;
+    padding: 35px 0;
+  }
+}
+@media only all and (max-width: 1280px) {
+  .games_buttons .game_1 a {
+    font-size: 70px;
+  }
+}
+@media only all and (max-width: 846px) {
+  .games_buttons .game_1 a {
+    padding: 15px 0;
+  }
+}
+@media only all and (max-width: 640px) {
+  .games_buttons .game_1 a {
+    font-size: 60px;
+    padding: 20px 0;
+  }
+}
+@media only all and (max-width: 425px) {
+  .games_buttons .game_1 a {
+    font-size: 48px;
+    padding: 30px 0;
+  }
+}
+.games_buttons .game_2 {
+  margin: 10px;
+  width: 40%;
+}
+@media only all and (max-width: 1024px) {
+  .games_buttons .game_2 {
+    width: 80%;
+    text-align: center;
+    margin: 2px auto;
+  }
+}
+@media only all and (max-width: 640px) {
+  .games_buttons .game_2 {
+    width: 95%;
+  }
+}
+@media only all and (max-width: 1600px) {
+  .games_buttons .game_2 a {
+    font-size: 75px;
+    padding: 35px 0;
+  }
+}
+@media only all and (max-width: 1280px) {
+  .games_buttons .game_2 a {
+    font-size: 70px;
+  }
+}
+@media only all and (max-width: 846px) {
+  .games_buttons .game_2 a {
+    padding: 15px 0;
+  }
+}
+@media only all and (max-width: 640px) {
+  .games_buttons .game_2 a {
+    font-size: 60px;
+    padding: 20px 0;
+  }
+}
+@media only all and (max-width: 425px) {
+  .games_buttons .game_2 a {
+    font-size: 48px;
+    padding: 30px 0;
+  }
+}
+.games_buttons .game_3 {
+  margin: 10px;
+  width: 40%;
+}
+@media only all and (max-width: 1024px) {
+  .games_buttons .game_3 {
+    width: 80%;
+    text-align: center;
+    margin: 2px auto;
+  }
+}
+@media only all and (max-width: 640px) {
+  .games_buttons .game_3 {
+    width: 95%;
+  }
+}
+@media only all and (max-width: 1600px) {
+  .games_buttons .game_3 a {
+    font-size: 75px;
+    padding: 35px 0;
+  }
+}
+@media only all and (max-width: 1280px) {
+  .games_buttons .game_3 a {
+    font-size: 70px;
+  }
+}
+@media only all and (max-width: 846px) {
+  .games_buttons .game_3 a {
+    padding: 15px 0;
+  }
+}
+@media only all and (max-width: 640px) {
+  .games_buttons .game_3 a {
+    font-size: 60px;
+    padding: 20px 0;
+  }
+}
+@media only all and (max-width: 425px) {
+  .games_buttons .game_3 a {
+    font-size: 48px;
+    padding: 30px 0;
+  }
+}
+.games_buttons .game_4 {
+  margin: 10px;
+  width: 40%;
+}
+@media only all and (max-width: 1024px) {
+  .games_buttons .game_4 {
+    width: 80%;
+    text-align: center;
+    margin: 2px auto;
+  }
+}
+@media only all and (max-width: 640px) {
+  .games_buttons .game_4 {
+    width: 95%;
+  }
+}
+@media only all and (max-width: 1600px) {
+  .games_buttons .game_4 a {
+    font-size: 75px;
+    padding: 35px 0;
+  }
+}
+@media only all and (max-width: 1280px) {
+  .games_buttons .game_4 a {
+    font-size: 70px;
+  }
+}
+@media only all and (max-width: 846px) {
+  .games_buttons .game_4 a {
+    padding: 15px 0;
+  }
+}
+@media only all and (max-width: 640px) {
+  .games_buttons .game_4 a {
+    font-size: 60px;
+    padding: 20px 0;
+  }
+}
+@media only all and (max-width: 425px) {
+  .games_buttons .game_4 a {
+    font-size: 48px;
+    padding: 30px 0;
+  }
+}
+
+@media only all and (max-width: 1600px) {
+  .btn-lg {
+    height: 200px;
+  }
+}
+@media only all and (max-width: 846px) {
+  .btn-lg {
+    height: 150px;
+  }
+}

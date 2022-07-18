@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Comfortaa:wght@300&family=Murecho:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/math.css">
+
+    <title>Раздели! Плюшевый кабинет</title>
+</head>
+
+<body>
+    <audio id="wrong_answer">
+        <source src="audio/wrong-answer.mp3">
+    </audio>
+    <audio id="correct_answer">
+        <source src="audio/correct-answer.mp3">
+    </audio>
+    <div class="wrapper">
+        <div class="content">
+
+            <header>
+                <div class="math_burger">
+                    <a href="game_math.html"><img src="images/bear.png"> </a>
+                </div>
+                <h1 class="math_title" id="title_divide">раздели</h1>
+                <div class="math_icon">
+                    <img src="images/math.png">
+                    <div class="user_name">
+                        <p>User name</p>
+                        <p>Exit</p>
+                    </div>
+                </div>
+            </header>
+            <div class="main_container" id="main_container_divide">
+                <div class="equation" id="equation_divide">
+                    <h1 id="number1">2</h1>
+                    <h1>/</h1>
+                    <h1 id="number2">3</h1>
+                    <h1>=</h1>
+                    <h1>?</h1>
+                </div>
+                <div class="answer_options" id="answer_options_divide">
+                    <h1 id="option1">1</h1>
+                    <h1 id="option2">2</h1>
+                    <h1 id="option3">3</h1>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <ul>
+                <li>
+                    <a href="substract.html">вычти</a>
+                </li>
+                <li>
+                    <a href="add.html">сложи</a>
+                </li>
+
+                <li>
+                    <a href="multiply.html">умножь</a>
+                </li>
+                <li class="current">
+                    <a href="divide.html">раздели</a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    <script src="scripts/divide.js"></script>
+    <script src="scripts/getStorageNameMath.js"></script>
+</body>
+
+</html>

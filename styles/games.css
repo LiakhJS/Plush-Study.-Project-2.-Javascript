@@ -1,0 +1,126 @@
+header {
+  background: #833ab4;
+}
+
+header {
+  background: linear-gradient(90deg, #833ab4 9%, rgba(255, 121, 0, 0.61808473) 54%, #f6fc45 100%);
+}
+
+header {
+  display: flex;
+}
+@media only all and (max-width: 600px) {
+  header h1 {
+    font-size: 30px;
+    text-align: right;
+  }
+}
+
+.main_container {
+  flex-direction: column;
+}
+@media only all and (max-width: 768px) {
+  .main_container > .general_information {
+    display: block;
+  }
+}
+.main_container > .general_information .choose {
+  font-size: 30px;
+}
+.main_container .general_information > p.choose {
+  font-size: 50px;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px;
+}
+@media only all and (max-width: 1024px) {
+  .main_container .general_information > p.choose {
+    font-size: 45px;
+  }
+}
+@media only all and (max-width: 846px) {
+  .main_container .general_information > p.choose {
+    font-size: 40px;
+    margin: 20px 0 10px 0;
+  }
+}
+
+.games_buttons {
+  display: flex;
+  justify-content: center;
+}
+@media only all and (max-width: 1024px) {
+  .games_buttons {
+    flex-direction: column;
+  }
+}
+.games_buttons .game_1 {
+  width: 30%;
+}
+@media only all and (max-width: 1024px) {
+  .games_buttons .game_1 {
+    text-align: center;
+    width: 70%;
+    margin: 2px auto;
+  }
+}
+@media only all and (max-width: 846px) {
+  .games_buttons .game_1 {
+    width: 90%;
+    margin: 2px auto;
+  }
+}
+@media only all and (max-width: 1280px) {
+  .games_buttons .game_1 a {
+    font-size: 75px;
+  }
+}
+.games_buttons .game_2 {
+  width: 30%;
+}
+@media only all and (max-width: 1024px) {
+  .games_buttons .game_2 {
+    text-align: center;
+    width: 70%;
+    margin: 2px auto;
+  }
+}
+@media only all and (max-width: 846px) {
+  .games_buttons .game_2 {
+    width: 90%;
+    margin: 2px auto;
+  }
+}
+@media only all and (max-width: 1280px) {
+  .games_buttons .game_2 a {
+    font-size: 75px;
+  }
+}
+.games_buttons .game_3 {
+  width: 30%;
+}
+@media only all and (max-width: 1024px) {
+  .games_buttons .game_3 {
+    text-align: center;
+    width: 70%;
+    margin: 2px auto;
+  }
+}
+@media only all and (max-width: 846px) {
+  .games_buttons .game_3 {
+    width: 90%;
+    margin: 2px auto;
+  }
+}
+@media only all and (max-width: 1280px) {
+  .games_buttons .game_3 a {
+    font-size: 75px;
+  }
+}
+
+@media only all and (max-width: 1280px) {
+  .btn-lg {
+    height: 150px;
+  }
+}

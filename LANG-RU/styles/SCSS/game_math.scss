@@ -1,0 +1,335 @@
+@import "mixins.scss";
+
+header {
+    display: flex;
+    flex-direction: row;
+
+    h1 {
+
+        font-size: 70px;
+        margin: auto 0;
+        width: 60%;
+
+        @include _846 {
+            font-size: 50px;
+            width: 40%;
+        }
+
+        @include _600 {
+            text-align: center;
+        }
+
+        @include _425 {
+            font-size: 40px;
+        }
+
+    }
+
+
+    .math_burger {
+        width: 20%;
+
+        @include _846 {
+            width: 30%;
+        }
+
+        .me__btn {
+
+            top: 65px;
+            left: 50px;
+
+            @include _425 {
+                top: 70px;
+                left: 25px;
+            }
+
+            &>span {
+                width: 100%;
+
+                @include _425 {
+                    width: 80%;
+                }
+
+                &::before {
+                    content: "";
+                    top: -12px;
+                }
+
+                &::after {
+                    content: "";
+                    top: 12px;
+                }
+            }
+        }
+    }
+
+    .math_icon {
+        width: 20%;
+        text-align: right;
+        margin: 10px;
+
+        @include _846 {
+            width: 30%;
+        }
+
+        img {
+            width: 70px;
+            height: 70px;
+            margin: 10px;
+
+            @include _640 {
+                margin: 5px;
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+
+    .me__box {
+        top: 150px;
+
+        @include _768 {
+            top: 155px;
+        }
+
+        @include _640 {
+            top: 125px;
+        }
+
+
+    }
+}
+
+.user_name_math {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    @include _768 {
+        flex-direction: column;
+    }
+
+    p {
+        margin: 5px;
+        font-size: 20px;
+        font-weight: bold;
+
+        @include _768 {
+            margin: 0px;
+        }
+
+        @include _640 {
+
+            font-size: 15px;
+        }
+    }
+}
+
+
+.main_container {
+
+    &>.general_information {
+        p {
+            &.choose {
+                @include _768 {
+                    font-size: 35px;
+                }
+
+                &.choose_paint {
+                    @include _465 {
+                        font-size: 30px;
+                    }
+
+                    @include _425 {
+                        font-size: 25px;
+                    }
+
+                }
+            }
+
+        }
+    }
+}
+
+.games_buttons {
+    flex-wrap: wrap;
+
+    @include _1024 {
+        padding: 0 0 50px 0;
+    }
+
+    .game_1 {
+
+        margin: 10px;
+        width: 40%;
+
+        @include _1024 {
+            width: 80%;
+            text-align: center;
+            margin: 2px auto;
+        }
+
+        @include _640 {
+            width: 95%;
+        }
+
+        a {
+            @include _1600 {
+                font-size: 75px;
+                padding: 35px 0;
+            }
+
+            @include _1280 {
+                font-size: 70px;
+            }
+
+            @include _846 {
+                padding: 15px 0;
+            }
+
+            @include _640 {
+                font-size: 60px;
+                padding: 20px 0;
+            }
+
+            @include _425 {
+                font-size: 48px;
+                padding: 30px 0;
+            }
+        }
+    }
+
+    .game_2 {
+
+        margin: 10px;
+        width: 40%;
+
+        @include _1024 {
+            width: 80%;
+            text-align: center;
+            margin: 2px auto;
+        }
+
+        @include _640 {
+            width: 95%;
+        }
+
+        a {
+            @include _1600 {
+                font-size: 75px;
+                padding: 35px 0;
+            }
+
+            @include _1280 {
+                font-size: 70px;
+            }
+
+            @include _846 {
+                padding: 15px 0;
+            }
+
+            @include _640 {
+                font-size: 60px;
+                padding: 20px 0;
+            }
+
+            @include _425 {
+                font-size: 48px;
+                padding: 30px 0;
+            }
+        }
+    }
+
+    .game_3 {
+        margin: 10px;
+        width: 40%;
+
+        @include _1024 {
+            width: 80%;
+            text-align: center;
+            margin: 2px auto;
+        }
+
+        @include _640 {
+            width: 95%;
+        }
+
+        a {
+            @include _1600 {
+                font-size: 75px;
+                padding: 35px 0;
+            }
+
+            @include _1280 {
+                font-size: 70px;
+            }
+
+            @include _846 {
+                padding: 15px 0;
+            }
+
+            @include _640 {
+                font-size: 60px;
+                padding: 20px 0;
+            }
+
+            @include _425 {
+                font-size: 48px;
+                padding: 30px 0;
+            }
+        }
+    }
+
+    .game_4 {
+        margin: 10px;
+        width: 40%;
+
+        @include _1024 {
+            width: 80%;
+            text-align: center;
+            margin: 2px auto;
+        }
+
+        @include _640 {
+            width: 95%;
+        }
+
+        a {
+            @include _1600 {
+                font-size: 75px;
+                padding: 35px 0;
+            }
+
+            @include _1280 {
+                font-size: 70px;
+            }
+
+            @include _846 {
+                padding: 15px 0;
+            }
+
+            @include _640 {
+
+                font-size: 60px;
+                padding: 20px 0;
+            }
+
+            @include _425 {
+                font-size: 48px;
+                padding: 30px 0;
+            }
+        }
+
+
+    }
+}
+
+.btn-lg {
+    @include _1600 {
+        height: 200px;
+    }
+
+    @include _846 {
+        height: 150px;
+    }
+}

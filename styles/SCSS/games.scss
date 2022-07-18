@@ -1,0 +1,134 @@
+@import "mixins.scss";
+
+header {
+    @extend %purple_back;
+    @extend %gradient;
+    display: flex;
+
+    h1 {
+
+        @include _600 {
+            font-size: 30px;
+            text-align: right;
+        }
+    }
+}
+
+.main_container {
+    flex-direction: column;
+
+    &>.general_information {
+        @include _768 {
+            display: block;
+        }
+
+        & .choose {
+            font-size: 30px;
+        }
+    }
+
+    .general_information {
+
+        &>p {
+            &.choose {
+                font-size: 50px;
+                text-transform: capitalize;
+                font-weight: bold;
+                text-align: center;
+                margin: 30px;
+
+                @include _1024 {
+                    font-size: 45px;
+                }
+
+                @include _846 {
+                    font-size: 40px;
+                    margin: 20px 0 10px 0;
+                }
+
+            }
+        }
+    }
+}
+
+.games_buttons {
+    display: flex;
+    justify-content: center;
+
+    @include _1024 {
+        flex-direction: column;
+    }
+
+    .game_1 {
+        width: 30%;
+
+        @include _1024 {
+            text-align: center;
+            width: 70%;
+            margin: 2px auto;
+
+        }
+
+        @include _846 {
+            width: 90%;
+            margin: 2px auto;
+        }
+
+        a {
+            @include _1280 {
+                font-size: 75px;
+            }
+
+        }
+    }
+
+    .game_2 {
+        width: 30%;
+
+        @include _1024 {
+            text-align: center;
+            width: 70%;
+            margin: 2px auto;
+
+        }
+
+        @include _846 {
+            width: 90%;
+            margin: 2px auto;
+        }
+
+        a {
+            @include _1280 {
+                font-size: 75px;
+            }
+        }
+    }
+
+    .game_3 {
+        width: 30%;
+
+        @include _1024 {
+            text-align: center;
+            width: 70%;
+            margin: 2px auto;
+
+        }
+
+        @include _846 {
+            width: 90%;
+            margin: 2px auto;
+        }
+
+        a {
+            @include _1280 {
+                font-size: 75px;
+            }
+        }
+    }
+}
+
+.btn-lg {
+    @include _1280 {
+        height: 150px;
+    }
+}

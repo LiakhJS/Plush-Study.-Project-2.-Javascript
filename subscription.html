@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5a711916a9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Comfortaa:wght@300&family=Murecho:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <link rel="stylesheet" type="text/css" href="styles/modal_signup.css">
+    <link rel="stylesheet" type="text/css" href="styles/subscription.css">
+    <title>PLUSH STUDY. Subscribe.</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <header>
+                <h1>plush study</h1>
+                <div class="menu">
+                    <div class="hamb_me">
+                        <input id="me__tog" type="checkbox" />
+                        <label class="me__btn" for="me__tog">
+                            <span></span>
+                        </label>
+                        <ul class="me__box">
+                            <li><a class="me__it " href="index.html">What is plush study?</a></li>
+                            <li><a class="me__it current-page" href="subscription.html">about subscription</a></li>
+                            <li><a class="me__it" href="game_math.html">math games</a></li>
+                            <li><a class="me__it" href="game_quiz.html">quizzes</a></li>
+                            <li><a class="me__it" href="game_paint.html">color me!</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <div class="subscription">
+                <div class="subscription__title">
+                    <h1>plush study subscription</h1>
+                    <p>The learning portal includes only manually created learning modules for children, from which you
+                        can choose, (depending on the level of education of the child), what it will be more interesting
+                        to do for Him/Her today. </p>
+                    <p class="subscr"><a href="#scroll-to-subscription"
+                            class="btn btn-outline-primary btn-subscr">Choose a subscription type</a> and get
+                        unlimited access to games!</p>
+                </div>
+                <div class="subscription__picture">
+                    <img src="images/ladoshki.png" alt="">
+                </div>
+            </div>
+            <div class="subscription__preferences">
+                <h1>What will U get? </h1>
+                <div class="subscription__icons">
+                    <figure class="icons">
+                        <img src="images/free-animated-icon-save-money-6172515.jpg" width="" height="" alt="">
+                        <figcaption>subscription renewal discounts</figcaption>
+                    </figure>
+                    <figure class="icons">
+                        <img src="images/free-animated-icon-computer-6172527.jpg" width="" height="" alt="">
+                        <figcaption>one subscription for all your devices</figcaption>
+                    </figure>
+                    <figure class="icons">
+                        <img src="images/free-animated-icon-idea-6172533.jpg" width="" height="" alt="">
+                        <figcaption>new items every month </figcaption>
+                    </figure>
+                    <figure class="icons">
+                        <img src="images/free-animated-icon-like-6172539.jpg" width="" height="" alt="">
+                        <figcaption>maximum quality</figcaption>
+                    </figure>
+                    <figure class="icons">
+                        <img src="images/free-animated-icon-social-media-6172532.jpg" width="" height="" alt="">
+                        <figcaption>personal profiles</figcaption>
+                    </figure>
+                    <figure class="icons">
+                        <img src="images/free-animated-icon-click-6416353.jpg" width="" height="" alt="">
+                        <figcaption> without advertising</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="subscription__tariff subscription__preferences" id="scroll-to-subscription">
+                <h1>Choose a subscription type: </h1>
+                <div class="subscription___cards">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h4 class="card-title">1 month</h5>
+                                <p>9 $</p>
+                                <a href="#" class="btn btn-primary btn-tariff">subscribe</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h4 class="card-title">6 months</h5>
+                                <p>48 $</p>
+                                <a href="#" class="btn btn-primary btn-tariff">subscribe</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h4 class="card-title">1 year</h5>
+                                <p>72 $</p>
+                                <a href="#" class="btn btn-primary btn-tariff">subscribe</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="open-button shake-top">CHAT</button>
+            <div class="chat-popup" id="myForm">
+                <form action="#" method="post" class="form-container">
+                    <h1>Chat</h1>
+                    <label for="msg"><b>Can I help you?</b></label>
+                    <textarea placeholder="Enter your message.." name="msg" required></textarea>
+                    <button type="submit" class="btn">Send</button>
+                    <button type="button" class="btn cancel">Close</button>
+                </form>
+            </div>
+             <div class="user-modal">
+                <div class="user-modal-container">
+                    <ul class="switcher">
+                        <li><a id="switcher-login" href="">Sign Up</a></li>
+                        <li><a id="switcher-registr" href="">Registration</a></li>
+                    </ul>
+                    <div id="login">
+                        <form class="form">
+                            <p class="fieldset">
+                                <label class="image-replace email" for="signin-email">E-mail</label>
+                                <span class="error-message">USER IS NOT FOUND... Fill the field correctly .</span>
+                                <input class="full-width has-padding has-border" id="signin-email" type="email"
+                                    placeholder="E-mail">
+                                <span class="error-message">Fill all the field correctly or please &mdash; SIGN
+                                    UP!</span>
+                            </p>
+                            <p class="fieldset">
+                                <label class="image-replace password" for="signin-password">Пароль</label>
+                                <span class="error-message">USER IS NOT FOUND... Fill the field correctly .</span>
+                                <input class="full-width has-padding has-border" id="signin-password" type="text"
+                                    placeholder="Password">
+                                <span class="error-message">Fill all the field correctly or please &mdash; SIGN
+                                    UP!</span>
+                            </p>
+                            <p class="fieldset">
+                                <input class="full-width" id="login-sumbit" type="submit" value="Sign up">
+                            </p>
+                        </form>
+                    </div>
+                    <div id="signup">
+                        <form class="form" name="signupForm">
+                            <p class="fieldset">
+                                <label class="image-replace username" for="signup-username">User Name</label>
+                                <input class="full-width has-padding has-border registr-valid" id="signup-username"
+                                    type="text" placeholder="User Name">
+                                <span class="error-message">This field starts with a capital letter. Please fill the
+                                    following field correctly.</span>
+                            </p>
+                            <p class="fieldset">
+                                <label class="image-replace email" for="signup-email">E-mail</label>
+                                <input class="full-width has-padding has-border registr-valid" id="signup-email"
+                                    type="email" placeholder="E-mail">
+                                <span class="error-message">Please fill the following field correctly.</span>
+                            </p>
+                            <p class="fieldset">
+                                <label class="image-replace password" for="signup-password">Password</label>
+                                <input class="full-width has-padding has-border registr-valid" id="signup-password"
+                                    type="text" placeholder="Password">
+                                <span class="error-message">This data field contains at least 4 symbols. Please fill the
+                                    following field correctly.</span>
+                            </p>
+                            <p class="fieldset">
+                                <input class="full-width has-padding" id="registration-submit" type="submit"
+                                    value="Create an account">
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="subscription-active"><span>subscription is</span> active</div>
+        </div>
+        <footer>
+            <div class="copyright">@2022.Plushstudy.by</div>
+            <div class="social_networks">
+                <a href="#" target="_blank"><i class="fab fa-twitter-square sn"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-facebook-square sn"></i></a>
+                <a href="LANG-RU/subscription.html" target="_blank"> <i class="fab sn">LANG-RU</i></a>
+                <a href="#" target="_blank"> <i class="fab fa-youtube-square sn"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram sn"></i></a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js "
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj "
+        crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js "
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF "
+        crossorigin="anonymous "></script>
+    <script src="scripts/index.js "></script>
+    <script src="scripts/modal_signup_subscr.js "></script>
+    <script src="scripts/signup_service_subscr.js "></script>
+    <script src="scripts/signup_script_subscr.js "></script>
+</body>
+
+</html>

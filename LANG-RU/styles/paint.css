@@ -1,0 +1,369 @@
+html {
+    min-width: 320px;
+}
+
+html,
+body {
+    min-height: 100%;
+    height: 100%;
+    background-color: rgb(234, 224, 224);
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+    background-color: white;
+}
+
+.coloring {
+    display: flex;
+    padding: 50px 0;
+
+
+}
+
+.coloring-main-window {
+    width: 80%;
+    display: flex;
+
+}
+
+.coloring-toolbox {
+    width: 20%;
+    padding: 0 0 0 50px;
+    margin: auto 0;
+}
+
+.coloring-image {
+    width: 70%;
+
+}
+
+.palette {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.palette-button {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.palette-button-active {
+    border-color: #000;
+}
+
+.coloring-image {
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+}
+
+.coloring-image>svg {
+    max-width: 100%;
+}
+
+
+.selected {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+path {
+    stroke: black;
+    stroke-width: 1;
+    stroke-linejoin: round;
+}
+
+
+
+
+.math_icon img {
+    width: 70px;
+    height: 70px;
+}
+
+.math_burger {
+    margin: auto 20px;
+}
+
+.math_burger a img {
+    width: 100px;
+    height: 100px;
+
+}
+
+header {
+    display: flex;
+
+    background-color: rgba(255, 0, 60, 0.852);
+    color: white;
+
+}
+
+.math_burger,
+.math_icon {
+    width: 20%;
+}
+
+.math_icon {
+    text-align: right;
+    margin: 10px;
+}
+
+.math_icon img {
+    margin: 10px;
+}
+
+.user_name {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.user_name p {
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.math_title {
+    font-size: 70px;
+    margin: 40px 0;
+    width: 60%;
+    text-align: center;
+}
+
+
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    flex: 0 0 auto;
+    justify-content: center;
+
+}
+
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 100%;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+
+
+header h1:first-of-type,
+footer ul {
+    text-transform: uppercase;
+}
+
+.games_buttons {
+    width: 15%;
+    margin: auto 0;
+}
+
+.game_1 {
+    margin: 10px auto;
+}
+
+.game_1 a>img {
+    width: 70%;
+}
+
+.paint_footer {
+    margin: 30px;
+    font-size: 30px;
+}
+
+@media only all and (max-width: 1280px) {
+    .coloring {
+        flex-direction: column;
+    }
+
+    .coloring-toolbox {
+        width: 95%;
+        padding: 0 0 50px 0;
+        margin: 0 auto;
+    }
+
+    .coloring-main-window {
+        width: 100%;
+    }
+
+    .coloring-image {
+        width: 60%;
+    }
+
+    .games_buttons {
+        width: 20%;
+    }
+}
+
+@media only all and (max-width: 1080px) {
+    .coloring-main-window {
+        flex-direction: column;
+    }
+
+    .coloring-image {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .games_buttons {
+        display: flex;
+        width: 95%;
+        padding: 0% 0 5% 5%;
+
+    }
+
+    .game_1 a>img {
+        width: 85%;
+    }
+
+    .palette-button {
+        width: 20px;
+        height: 20px;
+
+    }
+
+    .coloring-toolbox {
+
+        padding: 0 0 25px 0;
+    }
+
+    .coloring {
+        padding: 25px 0;
+
+    }
+}
+
+@media only all and (max-width: 875px) {
+    header .math_title {
+        font-size: 60px;
+        margin: auto 0;
+
+    }
+
+    .math_burger,
+    .math_icon {
+        width: 35%;
+    }
+
+    .math_icon {
+
+        margin: 5px;
+    }
+
+    .math_icon img {
+        margin: 0px;
+    }
+
+
+    .user_name {
+        flex-direction: column;
+    }
+}
+
+@media only all and (max-width: 640px) {
+    .games_buttons {
+        display: none;
+    }
+
+    .palette-button {
+        width: 18px;
+        height: 18px;
+
+    }
+
+    .coloring-image {
+        padding: 15px 0;
+    }
+
+    .paint_footer {
+        margin: 20px 5px;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media only all and (max-width: 520px) {
+
+    .coloring-image {
+        padding: 0;
+    }
+
+    .paint_footer {
+        margin: 10px 0 5px 0;
+
+    }
+
+    .math_burger a img {
+        width: 75px;
+        height: 65px;
+
+    }
+}
+
+@media only all and (max-width: 485px) {
+    header .math_title {
+        font-size: 30px;
+
+    }
+
+
+    .math_icon img {
+        width: 55px;
+        height: 60px;
+
+    }
+
+    .user_name p {
+        font-size: 16px;
+
+    }
+
+    .coloring-toolbox {
+
+        padding: 0 0 30px 0;
+    }
+
+    .coloring-image>svg {
+        height: 300px;
+
+    }
+}
+
+
+@media only all and (max-width: 400px) {
+
+
+    .user_name p {
+        font-size: 12px;
+
+    }
+}
+
+@media only all and (max-width: 385px) {
+    .coloring-toolbox {
+
+        padding: 0 0 10px 0;
+    }
+}
